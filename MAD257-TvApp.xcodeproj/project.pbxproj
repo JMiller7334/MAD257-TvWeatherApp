@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F3358DB29B288A00020E982 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3358DA29B288A00020E982 /* AppDelegate.swift */; };
+		3F3358DD29B288A00020E982 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3358DC29B288A00020E982 /* ViewController.swift */; };
+		3F3358E029B288A00020E982 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3358DE29B288A00020E982 /* Main.storyboard */; };
+		3F3358E329B288A00020E982 /* MAD257_TvApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F3358E129B288A00020E982 /* MAD257_TvApp.xcdatamodeld */; };
+		3F3358E529B288A30020E982 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F3358E429B288A30020E982 /* Assets.xcassets */; };
+		3F3358E829B288A30020E982 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F3358E629B288A30020E982 /* LaunchScreen.storyboard */; };
+		3F3358F229B288A30020E982 /* MAD257_TvAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3358F129B288A30020E982 /* MAD257_TvAppTests.swift */; };
+		3F3358FC29B288A30020E982 /* MAD257_TvAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3358FB29B288A30020E982 /* MAD257_TvAppUITests.swift */; };
+		3F3358FE29B288A30020E982 /* MAD257_TvAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3358FD29B288A30020E982 /* MAD257_TvAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F3358EE29B288A30020E982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3358CF29B288A00020E982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3358D629B288A00020E982;
+			remoteInfo = "MAD257-TvApp";
+		};
+		3F3358F829B288A30020E982 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F3358CF29B288A00020E982 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3358D629B288A00020E982;
+			remoteInfo = "MAD257-TvApp";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F3358D729B288A00020E982 /* MAD257-TvApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MAD257-TvApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3358DA29B288A00020E982 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F3358DC29B288A00020E982 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F3358DF29B288A00020E982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F3358E229B288A00020E982 /* MAD257_TvApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MAD257_TvApp.xcdatamodel; sourceTree = "<group>"; };
+		3F3358E429B288A30020E982 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F3358E729B288A30020E982 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F3358ED29B288A30020E982 /* MAD257-TvAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAD257-TvAppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3358F129B288A30020E982 /* MAD257_TvAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD257_TvAppTests.swift; sourceTree = "<group>"; };
+		3F3358F729B288A30020E982 /* MAD257-TvAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "MAD257-TvAppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F3358FB29B288A30020E982 /* MAD257_TvAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD257_TvAppUITests.swift; sourceTree = "<group>"; };
+		3F3358FD29B288A30020E982 /* MAD257_TvAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MAD257_TvAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F3358D429B288A00020E982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3358EA29B288A30020E982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3358F429B288A30020E982 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F3358CE29B288A00020E982 = {
+			isa = PBXGroup;
+			children = (
+				3F3358D929B288A00020E982 /* MAD257-TvApp */,
+				3F3358F029B288A30020E982 /* MAD257-TvAppTests */,
+				3F3358FA29B288A30020E982 /* MAD257-TvAppUITests */,
+				3F3358D829B288A00020E982 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F3358D829B288A00020E982 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F3358D729B288A00020E982 /* MAD257-TvApp.app */,
+				3F3358ED29B288A30020E982 /* MAD257-TvAppTests.xctest */,
+				3F3358F729B288A30020E982 /* MAD257-TvAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F3358D929B288A00020E982 /* MAD257-TvApp */ = {
+			isa = PBXGroup;
+			children = (
+				3F3358DA29B288A00020E982 /* AppDelegate.swift */,
+				3F3358DC29B288A00020E982 /* ViewController.swift */,
+				3F3358DE29B288A00020E982 /* Main.storyboard */,
+				3F3358E429B288A30020E982 /* Assets.xcassets */,
+				3F3358E629B288A30020E982 /* LaunchScreen.storyboard */,
+				3F3358E129B288A00020E982 /* MAD257_TvApp.xcdatamodeld */,
+			);
+			path = "MAD257-TvApp";
+			sourceTree = "<group>";
+		};
+		3F3358F029B288A30020E982 /* MAD257-TvAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3358F129B288A30020E982 /* MAD257_TvAppTests.swift */,
+			);
+			path = "MAD257-TvAppTests";
+			sourceTree = "<group>";
+		};
+		3F3358FA29B288A30020E982 /* MAD257-TvAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F3358FB29B288A30020E982 /* MAD257_TvAppUITests.swift */,
+				3F3358FD29B288A30020E982 /* MAD257_TvAppUITestsLaunchTests.swift */,
+			);
+			path = "MAD257-TvAppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F3358D629B288A00020E982 /* MAD257-TvApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F33590129B288A30020E982 /* Build configuration list for PBXNativeTarget "MAD257-TvApp" */;
+			buildPhases = (
+				3F3358D329B288A00020E982 /* Sources */,
+				3F3358D429B288A00020E982 /* Frameworks */,
+				3F3358D529B288A00020E982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MAD257-TvApp";
+			productName = "MAD257-TvApp";
+			productReference = 3F3358D729B288A00020E982 /* MAD257-TvApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F3358EC29B288A30020E982 /* MAD257-TvAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F33590429B288A30020E982 /* Build configuration list for PBXNativeTarget "MAD257-TvAppTests" */;
+			buildPhases = (
+				3F3358E929B288A30020E982 /* Sources */,
+				3F3358EA29B288A30020E982 /* Frameworks */,
+				3F3358EB29B288A30020E982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3358EF29B288A30020E982 /* PBXTargetDependency */,
+			);
+			name = "MAD257-TvAppTests";
+			productName = "MAD257-TvAppTests";
+			productReference = 3F3358ED29B288A30020E982 /* MAD257-TvAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F3358F629B288A30020E982 /* MAD257-TvAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F33590729B288A30020E982 /* Build configuration list for PBXNativeTarget "MAD257-TvAppUITests" */;
+			buildPhases = (
+				3F3358F329B288A30020E982 /* Sources */,
+				3F3358F429B288A30020E982 /* Frameworks */,
+				3F3358F529B288A30020E982 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F3358F929B288A30020E982 /* PBXTargetDependency */,
+			);
+			name = "MAD257-TvAppUITests";
+			productName = "MAD257-TvAppUITests";
+			productReference = 3F3358F729B288A30020E982 /* MAD257-TvAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F3358CF29B288A00020E982 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					3F3358D629B288A00020E982 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					3F3358EC29B288A30020E982 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3F3358D629B288A00020E982;
+					};
+					3F3358F629B288A30020E982 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 3F3358D629B288A00020E982;
+					};
+				};
+			};
+			buildConfigurationList = 3F3358D229B288A00020E982 /* Build configuration list for PBXProject "MAD257-TvApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F3358CE29B288A00020E982;
+			productRefGroup = 3F3358D829B288A00020E982 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3358D629B288A00020E982 /* MAD257-TvApp */,
+				3F3358EC29B288A30020E982 /* MAD257-TvAppTests */,
+				3F3358F629B288A30020E982 /* MAD257-TvAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F3358D529B288A00020E982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3358E829B288A30020E982 /* LaunchScreen.storyboard in Resources */,
+				3F3358E529B288A30020E982 /* Assets.xcassets in Resources */,
+				3F3358E029B288A00020E982 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3358EB29B288A30020E982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3358F529B288A30020E982 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F3358D329B288A00020E982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3358DD29B288A00020E982 /* ViewController.swift in Sources */,
+				3F3358E329B288A00020E982 /* MAD257_TvApp.xcdatamodeld in Sources */,
+				3F3358DB29B288A00020E982 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3358E929B288A30020E982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3358F229B288A30020E982 /* MAD257_TvAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F3358F329B288A30020E982 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F3358FE29B288A30020E982 /* MAD257_TvAppUITestsLaunchTests.swift in Sources */,
+				3F3358FC29B288A30020E982 /* MAD257_TvAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F3358EF29B288A30020E982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3358D629B288A00020E982 /* MAD257-TvApp */;
+			targetProxy = 3F3358EE29B288A30020E982 /* PBXContainerItemProxy */;
+		};
+		3F3358F929B288A30020E982 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F3358D629B288A00020E982 /* MAD257-TvApp */;
+			targetProxy = 3F3358F829B288A30020E982 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F3358DE29B288A00020E982 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3358DF29B288A00020E982 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F3358E629B288A30020E982 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F3358E729B288A30020E982 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F3358FF29B288A30020E982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		3F33590029B288A30020E982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = appletvos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F33590229B288A30020E982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MAD257.MAD257-TvApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Debug;
+		};
+		3F33590329B288A30020E982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Automatic;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MAD257.MAD257-TvApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+			};
+			name = Release;
+		};
+		3F33590529B288A30020E982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MAD257.MAD257-TvAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAD257-TvApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MAD257-TvApp";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Debug;
+		};
+		3F33590629B288A30020E982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MAD257.MAD257-TvAppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MAD257-TvApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MAD257-TvApp";
+				TVOS_DEPLOYMENT_TARGET = 16.1;
+			};
+			name = Release;
+		};
+		3F33590829B288A30020E982 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MAD257.MAD257-TvAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "MAD257-TvApp";
+			};
+			name = Debug;
+		};
+		3F33590929B288A30020E982 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "MAD257.MAD257-TvAppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TEST_TARGET_NAME = "MAD257-TvApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F3358D229B288A00020E982 /* Build configuration list for PBXProject "MAD257-TvApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F3358FF29B288A30020E982 /* Debug */,
+				3F33590029B288A30020E982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F33590129B288A30020E982 /* Build configuration list for PBXNativeTarget "MAD257-TvApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F33590229B288A30020E982 /* Debug */,
+				3F33590329B288A30020E982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F33590429B288A30020E982 /* Build configuration list for PBXNativeTarget "MAD257-TvAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F33590529B288A30020E982 /* Debug */,
+				3F33590629B288A30020E982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F33590729B288A30020E982 /* Build configuration list for PBXNativeTarget "MAD257-TvAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F33590829B288A30020E982 /* Debug */,
+				3F33590929B288A30020E982 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F3358E129B288A00020E982 /* MAD257_TvApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F3358E229B288A00020E982 /* MAD257_TvApp.xcdatamodel */,
+			);
+			currentVersion = 3F3358E229B288A00020E982 /* MAD257_TvApp.xcdatamodel */;
+			path = MAD257_TvApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F3358CF29B288A00020E982 /* Project object */;
+}
