@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="13122.16" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="21507" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="appleTV" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,7 +10,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MAD257_TvApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -17,12 +18,92 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TV Weather App" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3wF-Jj-udp">
+                                <rect key="frame" x="754" y="60" width="1070" height="66"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Local Temperatures" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYI-VV-u9h">
+                                <rect key="frame" x="754" y="198" width="1070" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Current Conditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qb7-de-pUG">
+                                <rect key="frame" x="754" y="510" width="1070" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature Info" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VMg-Fn-JxG">
+                                <rect key="frame" x="754" y="820" width="1070" height="60"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="currentTemp" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVZ-6S-gnd">
+                                <rect key="frame" x="754" y="293" width="1070" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="currentConditions" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FkG-zc-Im9">
+                                <rect key="frame" x="754" y="605" width="1070" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="currentTempInfo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kF7-rU-9wk">
+                                <rect key="frame" x="754" y="915" width="1070" height="60"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="wu6-TO-1qx"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="kF7-rU-9wk" secondAttribute="trailing" constant="16" id="0S8-ZW-OE5"/>
+                            <constraint firstItem="kF7-rU-9wk" firstAttribute="top" secondItem="VMg-Fn-JxG" secondAttribute="bottom" constant="35" id="4rh-we-jfL"/>
+                            <constraint firstItem="Qb7-de-pUG" firstAttribute="top" secondItem="CVZ-6S-gnd" secondAttribute="bottom" constant="157" id="54y-fy-NgO"/>
+                            <constraint firstItem="CVZ-6S-gnd" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="674" id="61B-dn-Lwj"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="3wF-Jj-udp" secondAttribute="trailing" constant="16" id="6Nx-jG-DWW"/>
+                            <constraint firstItem="FkG-zc-Im9" firstAttribute="top" secondItem="Qb7-de-pUG" secondAttribute="bottom" constant="35" id="8db-cE-AJy"/>
+                            <constraint firstItem="VMg-Fn-JxG" firstAttribute="top" secondItem="FkG-zc-Im9" secondAttribute="bottom" constant="155" id="A7l-5L-6as"/>
+                            <constraint firstItem="FkG-zc-Im9" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="674" id="B6p-93-ZvF"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="Qb7-de-pUG" secondAttribute="trailing" constant="16" id="BaY-ix-Sic"/>
+                            <constraint firstItem="CVZ-6S-gnd" firstAttribute="top" secondItem="HYI-VV-u9h" secondAttribute="bottom" constant="35" id="CNM-Ik-0Xw"/>
+                            <constraint firstItem="Qb7-de-pUG" firstAttribute="top" secondItem="CVZ-6S-gnd" secondAttribute="bottom" constant="157" id="Cku-Od-cjZ"/>
+                            <constraint firstItem="CVZ-6S-gnd" firstAttribute="top" secondItem="HYI-VV-u9h" secondAttribute="bottom" constant="35" id="Cvx-4k-9C2"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="CVZ-6S-gnd" secondAttribute="trailing" constant="16" id="E0M-gD-F2p"/>
+                            <constraint firstItem="kF7-rU-9wk" firstAttribute="top" secondItem="VMg-Fn-JxG" secondAttribute="bottom" constant="35" id="FPA-vV-oG4"/>
+                            <constraint firstItem="FkG-zc-Im9" firstAttribute="top" secondItem="Qb7-de-pUG" secondAttribute="bottom" constant="35" id="Ji2-LS-Zgx"/>
+                            <constraint firstItem="3wF-Jj-udp" firstAttribute="top" secondItem="wu6-TO-1qx" secondAttribute="top" id="Mti-Qd-3vZ"/>
+                            <constraint firstItem="VMg-Fn-JxG" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="674" id="NBh-uN-Ola"/>
+                            <constraint firstItem="HYI-VV-u9h" firstAttribute="top" secondItem="3wF-Jj-udp" secondAttribute="bottom" constant="72" id="O1t-IV-s5D"/>
+                            <constraint firstItem="kF7-rU-9wk" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="674" id="PQQ-Ll-Tc5"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="FkG-zc-Im9" secondAttribute="trailing" constant="16" id="VIX-db-pUa"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="VMg-Fn-JxG" secondAttribute="trailing" constant="16" id="Yau-5E-c23"/>
+                            <constraint firstItem="VMg-Fn-JxG" firstAttribute="top" secondItem="FkG-zc-Im9" secondAttribute="bottom" constant="155" id="dLS-pT-qA5"/>
+                            <constraint firstItem="HYI-VV-u9h" firstAttribute="top" secondItem="3wF-Jj-udp" secondAttribute="bottom" constant="72" id="ffk-jx-9vl"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="bottom" secondItem="kF7-rU-9wk" secondAttribute="bottom" constant="45" id="hTB-Hm-bxB"/>
+                            <constraint firstItem="Qb7-de-pUG" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="674" id="lVj-BQ-Rde"/>
+                            <constraint firstItem="wu6-TO-1qx" firstAttribute="trailing" secondItem="HYI-VV-u9h" secondAttribute="trailing" constant="16" id="pGP-6H-YxH"/>
+                            <constraint firstItem="HYI-VV-u9h" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="674" id="rgK-1e-6RI"/>
+                            <constraint firstItem="3wF-Jj-udp" firstAttribute="leading" secondItem="wu6-TO-1qx" secondAttribute="leading" constant="674" id="sD9-Vc-Zhq"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="currentSummary" destination="FkG-zc-Im9" id="Zty-ln-Bsh"/>
+                        <outlet property="currentTemp" destination="CVZ-6S-gnd" id="OL9-aP-kOe"/>
+                        <outlet property="tempInfo" destination="kF7-rU-9wk" id="hYW-SB-l9N"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-51" y="-146"/>
         </scene>
     </scenes>
 </document>
